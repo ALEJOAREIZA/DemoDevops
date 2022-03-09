@@ -13,8 +13,7 @@
             if(request.getParameterNames() != null) {
         %>
              
-            <h2>  You clicked :)</h2>
-            <%= request.getParameter("buttonName") %>
+            <h2>  You clicked <%= request.getParameter("buttonName") :) %></h2>
         <%
             }
         %>
