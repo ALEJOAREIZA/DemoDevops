@@ -22,7 +22,7 @@
             <INPUT TYPE="HIDDEN" NAME="buttonName">
             <INPUT TYPE="BUTTON" NAME="Button 1" VALUE="Button 1" ONCLICK="button1()">
             <INPUT TYPE="BUTTON" NAME="Button 2" VALUE="Button 2" ONCLICK="button2()">
-        </FORM>NAME="buttonName" 
+        </FORM> 
         
         <SCRIPT LANGUAGE="JavaScript">
             <!--
