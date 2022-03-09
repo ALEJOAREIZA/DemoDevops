@@ -12,8 +12,8 @@
             //if(request.getParameter("buttonName") != null) {
             if(request.getParameterNames() != null) {
         %>
-             
-             <%= <h2>  You clicked request.getParameter("buttonName") :) </h2> %>
+            You clicked 
+            <%= request.getParameter("buttonName") %>
         <%
             }
         %>
