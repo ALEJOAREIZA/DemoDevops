@@ -1,28 +1,30 @@
 
 <HTML>
     <HEAD>
-        <TITLE>Using Buttons</TITLE>
+        <TITLE>CI CD DemoTest</TITLE>
     </HEAD>
 
     <BODY>
+        <h1> Alejandro Areiza CI / CD</h1>
+        
+        
         <% 
             //if(request.getParameter("buttonName") != null) {
             if(request.getParameterNames() != null) {
         %>
-            You clicked 
+             
+            <h2>  You clicked :)</h2>
             <%= request.getParameter("buttonName") %>
         <%
             }
         %>
-
+        
         <FORM NAME="form1" METHOD="POST">
             <INPUT TYPE="HIDDEN" NAME="buttonName">
             <INPUT TYPE="BUTTON" VALUE="Button 1" ONCLICK="button1()">
             <INPUT TYPE="BUTTON" VALUE="Button 2" ONCLICK="button2()">
         </FORM>
-        <h1> Alejandro Areiza CI / CD</h1>
-        <h2> Learn QA Automation tools + Devops Tools CI/CD</h2>
-        <h2> Good Luck! :)</h2>
+        
         <SCRIPT LANGUAGE="JavaScript">
             <!--
             function button1()
