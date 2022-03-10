@@ -5,7 +5,7 @@
     </HEAD>
 
     <BODY>
-        <h1> Alejandro Areiza CI / CD ʘ‿ʘ</h1>
+        <h1> Alejandro Areiza CI / CD/h1>
         <h2>
             <% if(request.getParameterNames() != null) { %>
                 You clicked <%= request.getParameter("buttonName") %>
