@@ -6,18 +6,11 @@
 
     <BODY>
         <h1> Alejandro Areiza CI / CD</h1>
-        
-        
-        <% 
-            //if(request.getParameter("buttonName") != null) {
-            if(request.getParameterNames() != null) {
-        %>
-            You clicked 
-            <%= request.getParameter("buttonName") %>
-        <%
-            }
-        %>
-        
+        <h2>
+            <% if(request.getParameterNames() != null) { %>
+                You clicked <%= request.getParameter("buttonName") %>
+            <% } %>
+        </h2>
         <FORM NAME="form1" METHOD="POST">
             <INPUT TYPE="HIDDEN" NAME="buttonName">
             <INPUT TYPE="BUTTON" NAME="Button 1" VALUE="Button 1" ONCLICK="button1()">
